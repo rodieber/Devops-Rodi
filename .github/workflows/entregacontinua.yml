@@ -16,7 +16,8 @@ jobs:
         with:
           name: projetozipado.zip
           path: |
-             **.PY
+            **.PY
+            
             README.md
             
   deploy:
