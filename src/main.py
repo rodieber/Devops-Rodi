@@ -11,9 +11,9 @@ class Estudante(BaseModel):
     ativo: bool
 
 
-@app.get("/")
+@app.get("/helloworld")
 async def root():
-    return {"Ola": "Mundo"}
+    return {"message": "Hello World"}
 
 @app.get("/funcaoteste/")
 async def funcaoteste():
